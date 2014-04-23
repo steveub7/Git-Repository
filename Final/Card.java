@@ -5,7 +5,12 @@ public class Card
     
     public Card()
     {
-        aaa
+        level = 0;
+    }
+    
+    public void levelUp()
+    {
+        level++;
     }
 
 }
